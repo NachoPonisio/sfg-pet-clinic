@@ -6,9 +6,15 @@ C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-cl
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Person.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\OwnerServiceMap.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\PetType.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\SpecialityService.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Owner.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\SpecialityServiceMap.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\PetTypeService.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\BaseEntity.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Vet.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\VetServiceMap.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\AbstractMapService.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\PetTypeServiceMap.java
 C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\services\map\PetServiceMap.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Speciality.java
+C:\Users\elnac\Documents\Nacho\Desarrollo\Udemy\SpringGuru\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic\model\Visit.java
