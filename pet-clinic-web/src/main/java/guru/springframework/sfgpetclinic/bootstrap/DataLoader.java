@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.bootstrap;
 
 import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.model.Pet;
 import guru.springframework.sfgpetclinic.model.PetType;
 import guru.springframework.sfgpetclinic.model.Vet;
 import guru.springframework.sfgpetclinic.services.OwnerService;
@@ -9,6 +10,8 @@ import guru.springframework.sfgpetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.time.LocalDate;
 
 @Component
 //when registered as component, it runs the Run method implemented from CommandLineRunner
@@ -41,12 +44,34 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Jackson");
+        owner1.setAddress("Federico Lacroze 3444");
+        owner1.setCity("Buenos Aires");
+        owner1.setTelephone("1536789982");
+
+        Pet mikesPet = new Pet();
+        mikesPet.setPetType(savedDogPetType);
+        mikesPet.setOwner(owner1);
+        mikesPet.setBirthDate(LocalDate.now());
+        mikesPet.setName("Rosco");
+
+        owner1.getPets().add(mikesPet);
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Bruno");
         owner2.setLastName("Diaz");
+        owner2.setAddress("Av Diaz 100");
+        owner2.setCity("Ciudad Gotica");
+        owner2.setTelephone("1567772892");
+
+        Pet brunosPet = new Pet();
+        brunosPet.setPetType(savedCatPetType);
+        brunosPet.setOwner(owner2);
+        brunosPet.setBirthDate(LocalDate.now());
+        brunosPet.setName("Carloncho");
+
+        owner2.getPets().add(brunosPet);
 
         ownerService.save(owner2);
 
