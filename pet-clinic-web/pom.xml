@@ -125,16 +125,16 @@
                         <version>${junit-platform.version}</version>
                     </dependency>
                 </dependencies>
-                        <configuration>
-                            <excludes>
-                                <exclude>**/*IT.java</exclude>
-                            </excludes>
-                            <enableAssertions>true</enableAssertions>
-                            <!-- possible fix for surefire bug on CircleCi -->
-                            <useSystemClassLoader>false</useSystemClassLoader>
-                        </configuration>
-                    </plugin>
-                </plugins>
+                <configuration>
+                    <excludes>
+                        <exclude>**/*IT.java</exclude>
+                    </excludes>
+                    <enableAssertions>true</enableAssertions>
+                    <!-- possible fix for surefire bug on CircleCi -->
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
+            </plugin>
+        </plugins>
 
     </build>
 
