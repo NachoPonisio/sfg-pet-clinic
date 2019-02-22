@@ -1,5 +1,7 @@
 package guru.springframework.sfgpetclinic.model;
 
+import lombok.Builder;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.HashSet;
