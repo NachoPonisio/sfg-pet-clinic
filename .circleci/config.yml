@@ -17,7 +17,7 @@ jobs:
 
     - save_cache:
         paths:
-      - ~/.m2
+        - ~/.m2
         key: sfg-pet-clinic-{{ checksum "pom.xml" }}
 
     - run: mvn integration-test
