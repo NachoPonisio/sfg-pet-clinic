@@ -6,7 +6,6 @@ jobs:
     - image: circleci/openjdk:8-jdk-browsers
 
     steps:
-
     - checkout
 
     - restore_cache:
@@ -21,7 +20,7 @@ jobs:
       - ~/.m2
         key: sfg-pet-clinic-{{ checksum "pom.xml" }}
 
-    - run: mvn verify
+    - run: mvn integration-test
 
     - store_test_results:
         path: target/surefire-reports
